@@ -5,7 +5,7 @@ let aspectRatio = 0.5625;  // Default aspect ratio 16:9
  * IMPORTANT: Only adjust game balance via this object
  * ***/
 const GAMESETTINGS = {
-    backgroundColor: '#cdcdcd',
+    backgroundColor: '#121212',
     nativeWidth: 160,
     nativeHeight: 160 * aspectRatio,
     scaleFactor: 10,  // Scale the pixel art sprites up for smoother graphics
@@ -49,6 +49,7 @@ const GAMESETTINGS = {
     controlSensitivity: 0.0002,
     gameOverDelay: 500,  // Delay before displaying game over screen
     controlDelayOnStart: 400,
+    postFX: false,
     debug: false
 };
 

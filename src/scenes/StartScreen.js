@@ -137,7 +137,7 @@ export default class StartScreen extends Phaser.Scene {
                 };
 
                 let h1 = this.add.text(0, 0, "OOPS!", h1Style);
-                let p = this.add.text(0, 0, "We have a bug\nError: CONNECTION_TIMED_OUT", pStyle);
+                let p = this.add.text(0, 0, "We have a bug\nError: 404_PAGE_NOT_FOUND", pStyle);
 
                 h1.setPosition(this.game.scale.width / 3, 12 * GAMESETTINGS.scaleFactor);
                 p.setPosition(this.game.scale.width / 3, 30 * GAMESETTINGS.scaleFactor);
